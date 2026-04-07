@@ -82,14 +82,13 @@ public:
 
 // ---- Constructors ----
 
-MyString::MyString() {
+MyString::MyString() : data("") {
     // TODO: Initialize with empty string
-    data = " " ;
+    ;
 }
 
-MyString::MyString(const string& str) {
+MyString::MyString(const string& str) : data(str) {
     // TODO: Initialize data with the given std::string
-data = str ;
     
 }
 
